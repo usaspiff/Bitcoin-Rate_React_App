@@ -5,12 +5,25 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 10px white;
 }
 
 .header {
 background-color: #FFF200;
-color: #EC008C;
+color: #ec008c;
 padding-top: 20px;
+}
+
+.header h1 {
+  -webkit-transform: rotate(-7deg); /* Safari */
+  transform: rotate(-7deg);
+  padding-bottom: 20px;
+  text-shadow: 2px 2px black;
+}
+
+.header h1 img {
+  position: relative;
+  top: 10px;
 }
 
 .row {
@@ -30,6 +43,7 @@ padding-top: 20px;
 .columnRate {
   background-color: rgb(0, 151, 211);
   color: white;
+  box-shadow: 4px 4px white;
 }
 
 .columnRate:nth-child(even){

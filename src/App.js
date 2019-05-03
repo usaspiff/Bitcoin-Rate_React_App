@@ -77,7 +77,7 @@ class App extends Component {
 
     return (
       <div className="appStyle">
-        <Header title="Bitcoin Price Index" className="header" />
+        <Header title="itcoin Price Index" className="header" />
         <Table rates={rates} dates={dates} />
         <Footer />
       </div>
