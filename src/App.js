@@ -46,11 +46,11 @@ class App extends Component {
         }
 
         const json = await response.json();
-
+        //Extract the keys/value of object to place in array and reverse order
         const json__rates = Object.values(Object.values(json)[0]).reverse();
-        // console.log(json__rates);
+        
         const json__dates = Object.keys(Object.values(json)[0]).reverse();
-        // console.log(json__dates);
+        
 
         this.setState({
           rates: json__rates,

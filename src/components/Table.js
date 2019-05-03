@@ -1,6 +1,7 @@
 import React from "react";
 
 const Table = props => {
+  // Create the date column
   const date = props.dates;
   const columnDates = date.map((day, index) => {
     return (
@@ -10,6 +11,7 @@ const Table = props => {
     );
   });
 
+  // Create the rate column
   const rate = props.rates;
   const columnRates = rate.map((usd, index) => {
     const rateStyle = {
