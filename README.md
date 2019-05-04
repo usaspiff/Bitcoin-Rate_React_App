@@ -7,7 +7,7 @@ Data is sent to localstorage to prevent unnecessary data fetching if your data i
 Check it out on [Codesandbox](https://codesandbox.io/s/zqmz7w05ml)
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/usaspiff/Bitcoin-Rate_React_App/blob/master/bitcoin-demo.jpg">
 </p>
 
 ### Things Learned
